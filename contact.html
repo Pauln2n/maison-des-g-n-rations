@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>La maison des générations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>La maison des générations</h1>
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Nos services</a>
+        <a href="apropos.html">À Propos</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Nous contacter</h2>
+        <p>Vous pouvez sélectionner les sujets susceptibles de vous intéresser.</p> 
+        <p>Décrivez en quelques mots vos questions.</p>
+        <form>
+            <input type="checkbox" id="location" name="location" value="Loc">
+            <label for="location"> Location d'un espace</label>
+            <input type="checkbox" id="creche" name="creche" value="Cre">
+            <label for="creche"> Place en crèche</label>
+            <input type="checkbox" id="investir" name="investir" value="Inv">
+            <label for="investir"> Investir</label>
+          </form>
+    </div>  
+    <div class="container">
+        <form class="form1" action="contact-confirm.html" method="post">
+            <ul>
+              <li>
+                <label for="name">Nom&nbsp;:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <br>
+              <li>
+                <label for="mail">E-mail&nbsp;:</label>
+                <input type="email" id="mail" name="user_mail" />
+              </li>
+              <br>
+              <li>
+                <label for="msg">Message&nbsp;:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+            </ul>
+            <br>
+            <div class="button">
+                <button type="submit">Envoyer le message</button>
+            </div>
+          </form>       
+    </div>
+
+    <section class="main">
+
+    </section>
+    
+    </body>
+      
+    </html>
